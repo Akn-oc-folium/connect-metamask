@@ -4,7 +4,10 @@ library berachain;
 import 'dart:js_interop';
 
 @JS()
-external JSAny connectWallet();
+external JSPromise connectWallet();
 
 @JS()
-external JSAny getBlockNumber();
+external JSPromise switchToBerachainBepolia();
+
+@JS()
+external JSPromise sendBera(String amount);
