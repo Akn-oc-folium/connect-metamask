@@ -36,6 +36,8 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_web3: ^2.1.9
   get: ^4.7.2
+  shadcn_flutter: ^0.0.34
+  stacked: ^3.4.4
 
 dev_dependencies:
   flutter_test:
